@@ -1,0 +1,11 @@
+public class P7 {
+    public static void main(String[] args) {
+        for(int i = 0 ; i < 5 ; i++){
+            for(int j = 0 ; j < 5 ; j++){
+                System.out.printf("%2d",(1+ j*2 + 10*i ));
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
+    }
+}
